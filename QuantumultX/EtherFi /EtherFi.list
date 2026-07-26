@@ -1,6 +1,3 @@
-# NAME: EtherFi
-# DESC: Ether.fi Web3 DApp Rules
-
 host-suffix, ether.fi, EtherFi
 host-suffix, etherfi.com, EtherFi
 host-suffix, etherfi.network, EtherFi
