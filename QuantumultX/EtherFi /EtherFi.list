@@ -1,7 +1,6 @@
 # NAME: EtherFi
 # DESC: Ether.fi Web3 DApp Rules
 
-# > Ether.fi 官方及相关域名
-DOMAIN-SUFFIX,ether.fi
-DOMAIN-SUFFIX,etherfi.com
-DOMAIN-SUFFIX,etherfi.network
+host-suffix, ether.fi, EtherFi
+host-suffix, etherfi.com, EtherFi
+host-suffix, etherfi.network, EtherFi
