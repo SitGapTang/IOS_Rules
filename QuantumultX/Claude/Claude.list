@@ -18,4 +18,4 @@ HOST-KEYWORD, claude, Claude
 
 # > Anthropic 官方 IP 段 (AS399358)
 IP-CIDR, 160.79.104.0/21, Claude
-IP-CIDR6, 2607:6bc0::/48, Claude
+IP6-CIDR, 2607:6bc0::/48, Claude
