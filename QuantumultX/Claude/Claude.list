@@ -1,0 +1,21 @@
+# > Claude 核心网站与应用
+HOST-SUFFIX, anthropic.com, Claude
+HOST-SUFFIX, claude.ai, Claude
+HOST-SUFFIX, claude.com, Claude
+
+# > 用户生成内容与短链接 (Artifacts与文件预览)
+HOST-SUFFIX, claudeusercontent.com, Claude
+HOST-SUFFIX, clau.de, Claude
+
+# > 官方周边服务与 MCP 协议环境
+HOST-SUFFIX, modelcontextprotocol.io, Claude
+
+# > 依赖的 CDN、分析与功能测试 (避免页面加载不全)
+HOST-SUFFIX, cdn.growthbook.io, Claude
+HOST-SUFFIX, cdn.usefathom.com, Claude
+HOST-KEYWORD, anthropic, Claude
+HOST-KEYWORD, claude, Claude
+
+# > Anthropic 官方 IP 段 (AS399358)
+IP-CIDR, 160.79.104.0/21, Claude
+IP-CIDR6, 2607:6bc0::/48, Claude
