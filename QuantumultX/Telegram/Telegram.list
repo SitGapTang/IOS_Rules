@@ -1,15 +1,3 @@
-# NAME: Telegram
-# AUTHOR: SitGapTang
-# REPO: https://github.com/SitGapTang/IOS_Rules
-# UPDATED: 2026-07-24 08:08:50
-# HOST: 2
-# HOST-KEYWORD: 1
-# HOST-SUFFIX: 22
-# IP-ASN: 5
-# IP-CIDR: 6
-# IP6-CIDR: 4
-# TOTAL: 40
-
 HOST,api.imem.app,Telegram
 HOST,api.swiftgram.app,Telegram
 HOST-SUFFIX,cdn-telegram.org,Telegram
