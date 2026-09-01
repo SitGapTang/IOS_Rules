@@ -1,0 +1,35 @@
+# === 抖音核心域名 ===
+HOST-SUFFIX,douyin.com,DouYin
+HOST-SUFFIX,iesdouyin.com,DouYin
+HOST-SUFFIX,amemv.com,DouYin
+
+# === 字节跳动/抖音 CDN 与静态资源 ===
+HOST-SUFFIX,bytednsdoc.com,DouYin
+HOST-SUFFIX,zjcdn.com,DouYin
+HOST-SUFFIX,byteimg.com,DouYin
+HOST-SUFFIX,bytecdn.cn,DouYin
+HOST-SUFFIX,bytemcdn.com,DouYin
+HOST-SUFFIX,pstatp.com,DouYin
+HOST-SUFFIX,snssdk.com,DouYin
+
+# === 抖音细分服务 ===
+HOST-SUFFIX,douyincdn.com,DouYin
+HOST-SUFFIX,douyinpic.com,DouYin
+HOST-SUFFIX,douyinstatic.com,DouYin
+HOST-SUFFIX,douyinvod.com,DouYin
+HOST-SUFFIX,idouyinvod.com,DouYin
+
+# === 火山引擎 (视频流核心) ===
+HOST-SUFFIX,volces.com,DouYin
+HOST-SUFFIX,volcvideo.com,DouYin
+
+# === 头条/西瓜 (如需合并策略) ===
+HOST-SUFFIX,ixigua.com,DouYin
+HOST-SUFFIX,ixiguavideo.com,DouYin
+HOST-SUFFIX,toutiao.com,DouYin
+HOST-SUFFIX,toutiaocdn.com,DouYin
+HOST-SUFFIX,toutiaoimg.com,DouYin
+
+# === 暴力防漏抓取 (可选) ===
+# 匹配包含 douyin 的所有域名
+HOST-KEYWORD,douyin,DouYin
