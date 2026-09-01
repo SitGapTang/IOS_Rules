@@ -1,0 +1,55 @@
+# === 爱奇艺 专属 User-Agent ===
+USER-AGENT,iQIYI*
+USER-AGENT,QIYI*
+USER-AGENT,QYPlayer*
+USER-AGENT,PPStream*
+
+# === 爱奇艺 国际版 (iQIYI) ===
+HOST-SUFFIX,iq.com,iQIYI
+
+# === 爱奇艺 国内核心/视频域名 ===
+HOST-SUFFIX,iqiyi.com,iQIYI
+HOST-SUFFIX,qiyi.com,iQIYI
+HOST-SUFFIX,qiyi.cn,iQIYI
+HOST-SUFFIX,qy.com,iQIYI
+HOST-SUFFIX,qy.net,iQIYI
+HOST-SUFFIX,suike.cn,iQIYI
+
+# === 爱奇艺 静态资源与 CDN ===
+HOST-SUFFIX,iqiyipic.com,iQIYI
+HOST-SUFFIX,qiyipic.com,iQIYI
+HOST-SUFFIX,71.am,iQIYI
+HOST-SUFFIX,71edge.com,iQIYI
+HOST-SUFFIX,71edge.net,iQIYI
+HOST-SUFFIX,iqiyiedge.com,iQIYI
+HOST-SUFFIX,iqiyiedge.net,iQIYI
+
+# === 爱奇艺 银河奇异果 (电视端及组件) ===
+HOST-SUFFIX,gitv.cn,iQIYI
+HOST-SUFFIX,gitv.tv,iQIYI
+HOST-SUFFIX,aianno.cn,iQIYI
+HOST-SUFFIX,aianno.com,iQIYI
+HOST-SUFFIX,aiqiyicloud.com,iQIYI
+HOST-SUFFIX,aiqiyicloud.net,iQIYI
+HOST-SUFFIX,aiqiyicloud-mgmt.com,iQIYI
+HOST-SUFFIX,baiying.com,iQIYI
+HOST-SUFFIX,ibkstore.com,iQIYI
+HOST-SUFFIX,jiangbing.cn,iQIYI
+
+# === 历史遗留 (PPS/PPStream) ===
+HOST-SUFFIX,pps.tv,iQIYI
+HOST-SUFFIX,ppsimg.com,iQIYI
+HOST-SUFFIX,ppsurl.com,iQIYI
+HOST-SUFFIX,ppstream.cn,iQIYI
+HOST-SUFFIX,ppstream.com,iQIYI
+HOST-SUFFIX,ppstream.com.cn,iQIYI
+HOST-SUFFIX,ppstream.net,iQIYI
+HOST-SUFFIX,ppstream.net.cn,iQIYI
+
+# === 爱奇艺 专属大段 IP 匹配 (必须加 no-resolve 避免拖慢网速) ===
+# 剔除了无用的 /32 动态单节点 IP
+IP-CIDR,101.224.0.0/13,iQIYI,no-resolve
+IP-CIDR,103.44.56.0/22,iQIYI,no-resolve
+IP-CIDR,118.26.32.0/23,iQIYI,no-resolve
+IP-CIDR,118.26.120.0/24,iQIYI,no-resolve
+IP-CIDR,119.176.0.0/12,iQIYI,no-resolve
