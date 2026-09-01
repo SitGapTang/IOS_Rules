@@ -1,8 +1,8 @@
 # === 爱奇艺 专属 User-Agent ===
-USER-AGENT,iQIYI
-USER-AGENT,QIYI
-USER-AGENT,QYPlayer
-USER-AGENT,PPStream
+USER-AGENT,iQIYI*,iQIYI
+USER-AGENT,QIYI*,iQIYI
+USER-AGENT,QYPlayer*,iQIYI
+USER-AGENT,PPStream*,iQIYI
 
 # === 爱奇艺 国际版 (iQIYI) ===
 HOST-SUFFIX,iq.com,iQIYI
