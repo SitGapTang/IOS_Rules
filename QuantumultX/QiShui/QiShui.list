@@ -1,0 +1,10 @@
+# 汽水音乐 专属 User-Agent 匹配
+# 汽水的内部代号为Luna，通过 UA 精准抓取，不会误伤抖音
+USER-AGENT,Luna*
+USER-AGENT,luna*
+USER-AGENT,*com.luna.music*
+USER-AGENT,qishui*
+
+# 汽水音乐 专属域名 ===
+HOST-SUFFIX,qishui.com,Qishui
+HOST-KEYWORD,qishui,Qishui
