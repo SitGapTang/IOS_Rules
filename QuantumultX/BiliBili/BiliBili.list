@@ -1,0 +1,30 @@
+# === B站 专属 User-Agent ===
+USER-AGENT,bili*,BiliBili
+USER-AGENT,Bilibili*,BiliBili
+
+# === B站 核心 API 与短链接 ===
+HOST-SUFFIX,bilibili.com,BiliBili
+HOST-SUFFIX,bilibili.tv,BiliBili
+HOST-SUFFIX,bilibili.cn,BiliBili
+HOST-SUFFIX,biliapi.net,BiliBili
+HOST-SUFFIX,biliapi.com,BiliBili
+HOST-SUFFIX,b23.tv,BiliBili
+
+# === B站 静态资源与动态视频 CDN ===
+HOST-SUFFIX,hdslb.com,BiliBili
+HOST-SUFFIX,hdslb.net,BiliBili
+HOST-SUFFIX,bilivideo.com,BiliBili
+HOST-SUFFIX,bilivideo.cn,BiliBili
+HOST-SUFFIX,bilivideo.net,BiliBili
+HOST-SUFFIX,ourdvsss.com,BiliBili
+HOST-SUFFIX,ksyungslb.com,BiliBili
+HOST-SUFFIX,uposdash-302-bilivideo.yfcdn.net,BiliBili
+
+# === B站 衍生业务 (漫画/游戏/直播) ===
+HOST-SUFFIX,biligame.com,BiliBili
+HOST-SUFFIX,biligame.cn,BiliBili
+HOST-SUFFIX,bilicomics.com,BiliBili
+HOST-SUFFIX,bilibilipay.com,BiliBili
+
+# === B站 大段 IP 匹配 (已强制 no-resolve) ===
+IP-CIDR,203.107.1.0/24,BiliBili,no-resolve
