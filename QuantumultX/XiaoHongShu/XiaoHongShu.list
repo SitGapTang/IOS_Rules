@@ -1,0 +1,16 @@
+# === 小红书 专属 User-Agent ===
+USER-AGENT,xiaohongshu*,XiaoHongShu
+USER-AGENT,xhs-iphone*,XiaoHongShu
+
+# === 小红书 核心域名与短链接 ===
+HOST-SUFFIX,xiaohongshu.com,XiaoHongShu
+HOST-SUFFIX,xiaohongshusapi.com,XiaoHongShu
+HOST-SUFFIX,xhslink.com,XiaoHongShu
+
+# === 小红书 静态资源与视频 CDN ===
+HOST-SUFFIX,xhscdn.com,XiaoHongShu
+HOST-SUFFIX,xhscdn.net,XiaoHongShu
+HOST-SUFFIX,xhbvd.com,XiaoHongShu
+
+# === 第三方风控与数据上报 ===
+HOST-SUFFIX,fengkongcloud.com,XiaoHongShu
